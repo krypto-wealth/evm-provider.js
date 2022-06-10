@@ -2982,28 +2982,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@kwe-defi/api-derive@npm:^1.0.1, @kwe-defi/api-derive@npm:^1.0.4":
+"@krypto-wealth/api-derive@npm:^1.0.1, @krypto-wealth/api-derive@npm:^1.0.4":
   version: 1.0.4
-  resolution: "@kwe-defi/api-derive@npm:1.0.4"
+  resolution: "@krypto-wealth/api-derive@npm:1.0.4"
   dependencies:
     "@babel/runtime": ^7.10.2
     "@open-web3/orml-types": ^1.0.1
     "@polkadot/api-derive": ~6.4.2
-    "@kwe-defi/types": ^1.0.1
+    "@krypto-wealth/types": ^1.0.1
   checksum: c7ef55de46da513604f23d5fe6918a3b89c9822f93359518baffbe7e3899fa231eb1fd8b0ff50b3c78e937ee24f498d751fbf07166de24813854b37729220172
   languageName: node
   linkType: hard
 
-"@kwe-defi/api@npm:^1.0.4":
+"@krypto-wealth/api@npm:^1.0.4":
   version: 1.0.4
-  resolution: "@kwe-defi/api@npm:1.0.4"
+  resolution: "@krypto-wealth/api@npm:1.0.4"
   dependencies:
     "@babel/runtime": ^7.10.2
     "@open-web3/orml-api-derive": ^1.0.1
     "@polkadot/api": ~6.4.2
     "@polkadot/rpc-core": ~6.4.2
-    "@kwe-defi/api-derive": ^1.0.1
-    "@kwe-defi/types": ^1.0.1
+    "@krypto-wealth/api-derive": ^1.0.1
+    "@krypto-wealth/types": ^1.0.1
   peerDependencies:
     "@polkadot/api": ~6.4.2
     "@polkadot/types": ~6.4.2
@@ -3011,9 +3011,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@kwe-defi/evm-provider@workspace:.":
+"@krypto-wealth/evm-provider@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@kwe-defi/evm-provider@workspace:."
+  resolution: "@krypto-wealth/evm-provider@workspace:."
   dependencies:
     "@babel/core": ^7.12.9
     "@babel/register": ^7.12.1
@@ -3026,10 +3026,10 @@ __metadata:
     "@polkadot/types": ~6.4.2
     "@polkadot/util": ~7.9.2
     "@polkadot/util-crypto": ~7.9.2
-    "@kwe-defi/api": ^1.0.4
-    "@kwe-defi/api-derive": ^1.0.4
-    "@kwe-defi/type-definitions": ^1.0.4
-    "@kwe-defi/types": ^1.0.4
+    "@krypto-wealth/api": ^1.0.4
+    "@krypto-wealth/api-derive": ^1.0.4
+    "@krypto-wealth/type-definitions": ^1.0.4
+    "@krypto-wealth/types": ^1.0.4
     "@types/chai": ^4.2.14
     "@types/jest": ^27.0.1
     "@types/validator": ^13.1.0
@@ -3041,18 +3041,18 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@kwe-defi/type-definitions@npm:^1.0.4":
+"@krypto-wealth/type-definitions@npm:^1.0.4":
   version: 1.0.4
-  resolution: "@kwe-defi/type-definitions@npm:1.0.4"
+  resolution: "@krypto-wealth/type-definitions@npm:1.0.4"
   dependencies:
     "@open-web3/orml-type-definitions": ^1.0.1
   checksum: 6f465114370b61ccaa43b6c7c81dae53187eacd7a99ec8c067fcf9319c1a4904c51d878e9a0ee653757c8d0ca753b02faaa1bc9b7eeec6aafbf67c2f298b5d63
   languageName: node
   linkType: hard
 
-"@kwe-defi/types@npm:^1.0.1, @kwe-defi/types@npm:^1.0.4":
+"@krypto-wealth/types@npm:^1.0.1, @krypto-wealth/types@npm:^1.0.4":
   version: 1.0.4
-  resolution: "@kwe-defi/types@npm:1.0.4"
+  resolution: "@krypto-wealth/types@npm:1.0.4"
   dependencies:
     "@babel/runtime": ^7.10.2
     "@open-web3/api-mobx": ^1.0.1

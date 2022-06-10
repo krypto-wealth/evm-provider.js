@@ -1,19 +1,19 @@
-# @kwe-defi/evm-provider.js
+# @krypto-wealth/evm-provider.js
 
-`evm-provider.js` implements a web3 provider which can interact with the [Kwe chain EVM](https://github.com/kwe-defi/kwe-chain).
+`evm-provider.js` implements a web3 provider which can interact with the [Kwe chain EVM](https://github.com/krypto-wealth/kwe-chain).
 
-If you only care about developing Solidity contracts on the Kwe chain, `@kwe-defi/evm-provider.js` is used in our [Hardhat Kwe environment](https://github.com/kwe-defi/hardhat-kwe). The environment simplifies and abstracts all the low-level intricacies, so you can only focus on the Solidity part. See [hardhat-kwe-examples repo](https://github.com/kwe-defi/hardhat-kwe-examples/blob/master/scripts/flipper/deploy.js) for more examples.
+If you only care about developing Solidity contracts on the Kwe chain, `@krypto-wealth/evm-provider.js` is used in our [Hardhat Kwe environment](https://github.com/krypto-wealth/hardhat-kwe). The environment simplifies and abstracts all the low-level intricacies, so you can only focus on the Solidity part. See [hardhat-kwe-examples repo](https://github.com/krypto-wealth/hardhat-kwe-examples/blob/master/scripts/flipper/deploy.js) for more examples.
 
 If you need more control, then it can also be used as a Substrate provider to query or to interact with the Kwe chain using the same calls as in the [Polkadot.js](https://polkadot.js.org/docs/api).
 
 ## Installation
 
-Install dependencies with `yarn` [see issue](https://github.com/kwe-defi/evm-provider.js/issues/5#issuecomment-912389541).
+Install dependencies with `yarn` [see issue](https://github.com/krypto-wealth/evm-provider.js/issues/5#issuecomment-912389541).
 
 ### Yarn
 
 ```bash
-yarn add @kwe-defi/evm-provider
+yarn add @krypto-wealth/evm-provider
 ```
 
 ## Getting started
@@ -25,7 +25,7 @@ import {
   TestAccountSigningKey,
   Provider,
   Signer,
-} from "@kwe-defi/evm-provider";
+} from "@krypto-wealth/evm-provider";
 import { WsProvider, Keyring } from "@polkadot/api";
 import { createTestPairs } from "@polkadot/keyring/testingPairs";
 import { KeyringPair } from "@polkadot/keyring/types";
@@ -77,7 +77,7 @@ with this object you can interact with the Substrate chain.
 If you want to interact with injected sources (e.g. from Polkadot{.js}) you can do the following:
 
 ```javascript
-import { Provider, Signer, } from "@kwe-defi/evm-provider";
+import { Provider, Signer, } from "@krypto-wealth/evm-provider";
 import { WsProvider } from "@polkadot/api";
 import { web3Accounts, web3Enable } from "@polkadot/extension-dapp";
 
@@ -132,7 +132,7 @@ export default setup;
 
 ## EVM interaction
 
-Most, but not all, of `evm-provider.js` API is compatible with `ethers.js`. If you are not familiar with `ethers.js`, you can start by looking at its [documentation](https://docs.ethers.io/v5/single-page/). See our [Kweswap example](https://github.com/kwe-defi/kweswap/blob/653e6f4e77d228bba32fe233bff4a4811eae335e/src/deploy.ts) on how it uses the above `setup` script to deploy and interact with the EVM.
+Most, but not all, of `evm-provider.js` API is compatible with `ethers.js`. If you are not familiar with `ethers.js`, you can start by looking at its [documentation](https://docs.ethers.io/v5/single-page/). See our [Kweswap example](https://github.com/krypto-wealth/kweswap/blob/653e6f4e77d228bba32fe233bff4a4811eae335e/src/deploy.ts) on how it uses the above `setup` script to deploy and interact with the EVM.
 
 ### Get EVM address
 
@@ -211,7 +211,7 @@ await factory.deploy(<contract_args>, {
 If you require maximum flexibility `evm-provider` exports maximum gas and storage limit:
 
 ```
-import { MAX_GAS_LIMIT, MAX_STORAGE_LIMIT } from "@kwe-defi/evm-provider";
+import { MAX_GAS_LIMIT, MAX_STORAGE_LIMIT } from "@krypto-wealth/evm-provider";
 ```
 which default to `U64MAX` and `U32MAX` respectively.
 

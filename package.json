@@ -1,9 +1,9 @@
 {
-  "name": "@kwe-defi/evm-provider",
+  "name": "@krypto-wealth/evm-provider",
   "version": "1.0.7",
   "main": "build/index.js",
   "types": "build/index.d.ts",
-  "repository": "git@github.com:kwe-defi/evm-provider.js.git",
+  "repository": "git@github.com:krypto-wealth/evm-provider.js.git",
   "author": "Kwe Developers",
   "license": "Apache-2.0",
   "scripts": {
@@ -29,10 +29,10 @@
     "@polkadot/types": "~6.4.2",
     "@polkadot/util": "~7.9.2",
     "@polkadot/util-crypto": "~7.9.2",
-    "@kwe-defi/api": "^1.0.4",
-    "@kwe-defi/api-derive": "^1.0.4",
-    "@kwe-defi/type-definitions": "^1.0.4",
-    "@kwe-defi/types": "^1.0.4",
+    "@krypto-wealth/api": "^1.0.4",
+    "@krypto-wealth/api-derive": "^1.0.4",
+    "@krypto-wealth/type-definitions": "^1.0.4",
+    "@krypto-wealth/types": "^1.0.4",
     "@typescript-eslint/eslint-plugin": "4.8.1",
     "blakejs": "~1.1.0",
     "ethers": "~5.5.0"

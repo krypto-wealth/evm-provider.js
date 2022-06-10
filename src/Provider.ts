@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import { options } from '@kwe-defi/api';
-import { EvmContractInfo, EvmAccountInfo } from '@kwe-defi/types/interfaces';
+import { options } from '@krypto-wealth/api';
+import { EvmContractInfo, EvmAccountInfo } from '@krypto-wealth/types/interfaces';
 import type {
   Block,
   BlockTag,
